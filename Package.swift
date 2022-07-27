@@ -18,7 +18,9 @@ let package = Package(
 	targets: [
 		.target(
 			name: "JKVValue",
-		    path: "Sources"
+		    path: "Sources",
+			publicHeadersPath: "include"
+
 		)
 	]
 )

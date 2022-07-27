@@ -17,7 +17,9 @@ let package = Package(
 	],
 	targets: [
 		.target(
-			name: "JKVValue"
+			name: "JKVValue",
+		    path: "Sources",
+
 		)
 	]
 )
